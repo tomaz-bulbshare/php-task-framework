@@ -1,0 +1,11 @@
+# Requirements
+* docker
+* docker-compose
+
+# Usage
+
+## start container
+docker-compose up
+
+## stop containes
+docker-compose down
