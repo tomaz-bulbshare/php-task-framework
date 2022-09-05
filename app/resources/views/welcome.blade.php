@@ -40,12 +40,12 @@
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
-                            <h3>Weather in {{ $country_name }}</h3>
+                            <h3>Weather in</h3>
 
                         </div>
 
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
-                            <h3>Holidays in {{ $country_name }}</h3>
+                            <h3>Holidays in</h3>
 
                         </div>
                     </div>

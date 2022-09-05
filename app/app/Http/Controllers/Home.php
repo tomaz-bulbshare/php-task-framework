@@ -8,18 +8,11 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Illuminate\Support\Facades\Http;
-use Carbon\Carbon;
-use App\Utils\OpenMeteotWeatherCode;
 
 class Home extends BaseController
 {
-    use AuthorizesRequests, DispatchesJobs, ValidatesRequests, OpenMeteotWeatherCode;
+    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function index(Request $request, Response $response) {
-    }
-
-    public static function getWeatherCodeString(int $value) {
-        echo (new class { use OpenMeteotWeatherCode; })->getStringFromCode($value);
     }
 }
