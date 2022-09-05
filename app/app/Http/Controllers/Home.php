@@ -17,7 +17,6 @@ class Home extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests, OpenMeteotWeatherCode;
 
     public function index(Request $request, Response $response) {
-        return view('welcome', ['country_name' => '']);
     }
 
     public static function getWeatherCodeString(int $value) {
