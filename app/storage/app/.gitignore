@@ -1,0 +1,4 @@
+*
+!public/
+!.gitignore
+!countries.json
