@@ -1,3 +1,6 @@
+# Description
+Basic Larevel 9 framework with PHP 8.
+
 # Requirements
 * docker
 * docker-compose
