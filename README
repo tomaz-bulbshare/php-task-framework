@@ -7,6 +7,11 @@ Basic Larevel 9 framework with PHP 8.
 
 # Usage
 
+## install
+1. docker-compose run myapp bash
+2. execute: composer install
+3. exit container
+
 ## start container
 docker-compose up
 
